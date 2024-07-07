@@ -11,7 +11,7 @@ class ModifyStringNode:
                 "input_string": ("STRING", {"forceInput": True}),
                 "strings_to_remove": ("STRING", {"multiline": True, "placeholder": "Enter one of more words or strings to remove. Seperate multiple strings using commas."}),
                 "strings_to_replace": ("STRING", {"multiline": True, "placeholder": "Type the string or word to be replaced seperated by a colon. Seperate multiple string replacements with commas. Example to replace the word dog with cat you would enter dog:cat"}),
-                "case_sensitive": (["True", "False"], {"default": "True"})
+                "case_sensitive": (["True", "False"], {"default": "False"})
             }
         }
 
